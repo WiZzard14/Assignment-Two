@@ -262,14 +262,16 @@
 }
 
 .why-card{
-  background: rgba(0,0,0,0.18);             
+  height: 100%;                /* fill the grid cell */
+  background: rgba(0,0,0,0.18);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 26px;
   padding: 34px;
-  box-shadow: 0 22px 50px rgba(0,0,0,0.28);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: start;
+  align-items: start;
+  text-align: left;
 }
 
 .why-icon{
@@ -308,3 +310,5 @@
 .why-card--left{
   grid-column: 1 / 3; 
 }
+
+
