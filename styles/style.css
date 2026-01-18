@@ -22,7 +22,40 @@
     font-weight: bold;
 }
 
-.logo span {
-    color: #FF6B6B;
-    
+.logo span{
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
+  color: transparent;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+  transition: color 0.2s ease;
+}
+
+.nav-menu a:hover{
+  color: #ffffff;
+}
+
+.nav-button{
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  background: linear-gradient(90deg, #a855f7, #22d3ee);
+  color: #060018;
+  transition: transform 0.2s ease;
+}
+
+.nav-button:hover{
+  transform: translateY(-2px);
 }
