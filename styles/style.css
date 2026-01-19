@@ -400,3 +400,58 @@
   background: #39ff9a;
   box-shadow: 0 8px 16px rgba(57,255,154,0.25);
 }
+
+.media-block{
+  padding: 80px 0 100px;
+  background: #230E3D;
+}
+
+.host-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.host-card{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #230E3D;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 22px;
+  padding: 30px;
+}
+
+.host-content h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.host-content p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.65);
+}
+
+.host-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.host-social {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
