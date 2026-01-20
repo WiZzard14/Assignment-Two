@@ -638,7 +638,7 @@
   .why-card--left{
     grid-column: auto;
     grid-row: auto;
-    min-height: auto;
+    min-height: 0;
   }
 
   .episodes{ padding: 60px 0 70px; }
@@ -679,7 +679,7 @@
   .why-card--left{
     grid-column: auto;
     grid-row: auto;
-    min-height: auto;
+    min-height: 0;
   }
 
   .episodes{ padding: 70px 0 90px; }
